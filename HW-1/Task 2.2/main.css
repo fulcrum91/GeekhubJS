@@ -1,0 +1,24 @@
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+}
+.flex-container > *{
+    padding: 20px;
+}
+.lateral{
+    flex-basis: 300px;
+}
+.left{
+    order: 1;
+}
+.center{
+    flex-basis: calc(100% - 720px);
+    order: 2;
+}
+.right{
+    order: 3;
+}
+.bottom{
+    order: 4;
+}
+
